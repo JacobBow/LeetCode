@@ -13,7 +13,8 @@
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-
+        #Same form for printing a binary tree with a few alters to it
+        #Original form {if left not null go left, print(val), if right not null go right}
         if root is None:
             return 0
 
